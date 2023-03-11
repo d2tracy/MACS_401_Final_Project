@@ -16,7 +16,9 @@ The datasets that I am using are the earthquake data gathered from the USGS Eart
 
 
 ## Data Analysis:
-I am analyzing this data by graphing frequency of earthquakes against the magnitude that they occur at, and displaying the results on a logarithmic scale. In order to do this, I first pull all the magnitudes of each earthquakes from the csv dataframe, and add these to an array. After this, I sort the data by magnitude, making a variable for each magnitude value at 0.1 intervals. I then plot the results
+I am analyzing this data by graphing frequency of earthquakes against the magnitude that they occur at, and displaying the results on a logarithmic scale. This is known as the Gutenberg-Richer Law/Equation. In order to do this, I first pull all the magnitudes of each earthquakes from the csv dataframe, and add these to an array. After this, I sort the data by magnitude, making a variable for each magnitude value at 0.1 intervals. I then plot the occurances of earthquakes at each magnitude interval against that magnitude. 
+
+As stated before, this program is able to run regardless of what csv data file is imputed, as long as it is in an identical formal to those downloaded off of the USGS earthquake catelog. I have tested this by downloading a variety of datasets from the USGS catelog and imputing them into the program, and have had no issues. In addition, the graphs are set up to automaticlly format to fit the dataset, so no additional cleanup is required.
 
 
 ## References: 
